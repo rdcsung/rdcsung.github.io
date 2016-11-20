@@ -39,11 +39,17 @@ sections:
     tpl: 'skills.html'
     css: 'team'
 
-  - id: 'projects'
-    i18n: 'nav.projects'
-    name: 'Projects'
-    tpl: 'projects.html'
-    css: 'project'
+
+  - id: 'links'
+    name: 'Links'
+    tpl: 'links.html'
+    css: 'contact'
+
+#  - id: 'projects'
+#    i18n: 'nav.projects'
+#    name: 'Projects'
+#    tpl: 'projects.html'
+#    css: 'project'
 
 #  - id: 'blog'
 #    i18n: 'nav.blog'
@@ -51,11 +57,8 @@ sections:
 #    tpl: 'blog.html'
 #    css: 'testimonials navy-section'
 
-   - id: 'links'
-    name: 'Links'
-    tpl: 'links.html'
-    css: 'contact'
 
+    
 # localization
 #languages:
 #  - locale: 'en'
