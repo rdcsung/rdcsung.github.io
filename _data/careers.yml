@@ -1,11 +1,11 @@
 - name:
-    detail: Ericsson
+    detail: Ericsson Sweden
     i18n: e-ln-2
   desc:
     detail: Now I am focus on Machine Learning
     i18n: e-ln-2_des
   date:
-    detail: Apr. 2016
+    detail: Sep. 2016
     i18n: e-ln-2_date
   job:
     detail: Python Developer
@@ -14,13 +14,13 @@
   
 
 - name:
-    detail: Ericsson
+    detail: Ericsson Sweden
     i18n: e-ln-1
   desc:
     detail: In Ericsson Sweden, I worked as a line manager. I worked with Packet Core, Ericsson Wifi Gateway, Apcera cloud platform.
     i18n: e-ln-1_des
   date:
-    detail: Jun. 2015
+    detail: Apr. 2010
     i18n: e-ln-1_date
   job:
     detail: Dev Ops
@@ -28,7 +28,7 @@
   icon: fa-cloud
 
 - name:
-    detail: Ericsson
+    detail: Ericsson China
     i18n: e-sh-1
   desc:
     detail: In Ericsson Shanghai, I started to work as developer and architecture. Later I became a project manager, line manager. 
