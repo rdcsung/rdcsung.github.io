@@ -13,41 +13,41 @@
   icon: fa-plus-square
 
 - name:
-    detail: Netease Game
-    i18n: netease
+    detail: Ericsson
+    i18n: e-sh-2
   desc:
-    detail: In Netease game, I learned game service system and use Python code for ops.
-    i18n: netease_des
+    detail: In Ericsson, I became a project manager.
+    i18n: e-sh-2_des
   date:
     detail: Jun. 2015
-    i18n: nextcode_date
+    i18n: e-sh-2_date
   job:
     detail: Dev Ops
-    i18n: netease_job
+    i18n: e-sh-2_job
   icon: fa-gamepad
 
 - name:
-    detail: Ucloud
-    i18n: ucloud
+    detail: Ericsson
+    i18n: e-sh-1
   desc:
-    detail: In ucloud, I started to deal with servers and Linux system and use shell scripts to manage massive server.
-    i18n: ucloud_des
+    detail: In Ericsson, I started to work as developer and architecture.
+    i18n: e-sh-1_des
   date:
-    detail: Sep. 2013
-    i18n: ucloud_date
+    detail: . Aug. 1998
+    i18n: e-sh-1_date
   job:
     detail: Dev Ops
-    i18n: ucloud_job
+    i18n: e-sh-1_job
   icon: fa-cloud
 
 - name:
     detail: Graduation
     i18n: college
   desc:
-    detail: At July 2013,I graduated from college and started my IT technology tour.
+    detail: At July 1998,I graduated from Fudan Univercity
     i18n: college_des
   date:
-    detail: Jul. 2013
+    detail: Aug. 1998
     i18n: college_date
   job:
     detail: Student
