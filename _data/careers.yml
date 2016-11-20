@@ -1,36 +1,37 @@
 - name:
-    detail: Nextcode
-    i18n: nextcode
+    detail: Ericsson
+    i18n: e-ln-2
   desc:
-    detail: Now I am in Nextcode and develop website with Python code for genetic analysis.
-    i18n: nextcode_des
+    detail: Now I am focus on Machine Learning
+    i18n: e-ln-2_des
   date:
     detail: Apr. 2016
-    i18n: nextcode_date
+    i18n: e-ln-2_date
   job:
     detail: Python Developer
-    i18n: nextcode_job
+    i18n: e-ln-2_job
   icon: fa-plus-square
+  
 
 - name:
     detail: Ericsson
-    i18n: e-sh-2
+    i18n: e-ln-1
   desc:
-    detail: In Ericsson, I became a project manager.
-    i18n: e-sh-2_des
+    detail: In Ericsson Sweden, I worked as a line manager. I worked with Packet Core, Ericsson Wifi Gateway, Apcera cloud platform.
+    i18n: e-ln-1_des
   date:
     detail: Jun. 2015
-    i18n: e-sh-2_date
+    i18n: e-ln-1_date
   job:
     detail: Dev Ops
-    i18n: e-sh-2_job
-  icon: fa-gamepad
+    i18n: e-ln-1_job
+  icon: fa-cloud
 
 - name:
     detail: Ericsson
     i18n: e-sh-1
   desc:
-    detail: In Ericsson, I started to work as developer and architecture.
+    detail: In Ericsson Shanghai, I started to work as developer and architecture. Later I became a project manager, line manager. 
     i18n: e-sh-1_des
   date:
     detail: . Aug. 1998
@@ -44,7 +45,7 @@
     detail: Graduation
     i18n: college
   desc:
-    detail: At July 1998,I graduated from Fudan Univercity
+    detail: In July 1998,I graduated from Fudan Univercity.
     i18n: college_des
   date:
     detail: Aug. 1998
