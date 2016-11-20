@@ -1,20 +1,23 @@
-- name: Python
-  percentage: 85
-
-- name: HTML/CSS
-  percentage: 65
-
-- name: Linux/Shell
-  percentage: 75
-
-- name: jQuery
-  percentage: 85
-
-- name: AngularJS
-  percentage: 80
-
-- name: Ionic
+- name: Machine Learning
   percentage: 70
 
-- name: Vuejs
-  percentage: 65
+- name: Deep Learning
+  percentage: 60
+
+- name: TensorFlow
+  percentage: 60
+  
+- name: Python
+  percentage: 70
+
+- name: HTML/CSS
+  percentage: 70
+
+- name: Linux/Shell
+  percentage: 60
+
+- name: Contineous Delivery
+  percentage: 80
+
+- name: Lean&Agile
+  percentage: 80

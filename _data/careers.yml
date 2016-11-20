@@ -8,7 +8,7 @@
     detail: Sep. 2016
     i18n: e-ln-2_date
   job:
-    detail: Python Developer
+    detail: Developer, Technical Leader
     i18n: e-ln-2_job
   icon: fa-plus-square
   
@@ -23,7 +23,7 @@
     detail: Apr. 2010
     i18n: e-ln-1_date
   job:
-    detail: Dev Ops
+    detail: Line Manager
     i18n: e-ln-1_job
   icon: fa-cloud
 
@@ -34,10 +34,10 @@
     detail: In Ericsson Shanghai, I started to work as developer and architecture. Later I became a project manager, line manager. 
     i18n: e-sh-1_des
   date:
-    detail: . Aug. 1998
+    detail: Aug. 1998
     i18n: e-sh-1_date
   job:
-    detail: Dev Ops
+    detail: Developer, Project Manager, Line Manager
     i18n: e-sh-1_job
   icon: fa-cloud
 

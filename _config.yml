@@ -51,10 +51,10 @@ sections:
 #    tpl: 'blog.html'
 #    css: 'testimonials navy-section'
 
-#  - id: 'links'
-#   name: 'Links'
-#    tpl: 'links.html'
-#    css: 'contact'
+   - id: 'links'
+    name: 'Links'
+    tpl: 'links.html'
+    css: 'contact'
 
 # localization
 #languages:
