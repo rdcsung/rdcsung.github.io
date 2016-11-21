@@ -1,5 +1,5 @@
 - name: Machine Learning
-  percentage: 70
+  percentage: 80
 
 - name: Deep Learning
   percentage: 60
@@ -13,6 +13,12 @@
 - name: HTML/CSS
   percentage: 70
 
+- name: AWS/ Heroku
+  percentage: 65
+  
+- name: Database
+  percentage: 60
+  
 - name: Linux/Shell
   percentage: 60
 
