@@ -1,14 +1,16 @@
 - name: Blog
   href: '/blog/'
 
+- name: Linux
+  href: '/linux/'
+  
 - name: Python
   href: '/python/'
 
 - name: Life
   href: '/life/'
 
-#- name: Linux
-#  href: '/linux/'
+
 
 #- name: HTML
 #  href: '/html/'
