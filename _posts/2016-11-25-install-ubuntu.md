@@ -4,7 +4,7 @@ title:  "Install Ubuntu"
 desc: "Describe how to install Ubuntu"
 keywords: "Ubuntu"
 date: 2016-11-25
-categories: [linux]
+categories: [Linux]
 tags: [blog]
 icon: fa-bookmark-o
 ---
