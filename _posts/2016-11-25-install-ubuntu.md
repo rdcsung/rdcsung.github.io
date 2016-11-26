@@ -20,11 +20,15 @@ Note: USB stick need at least 8GB.
 On DELL, push F2 during start up of the computuer.
 Configure the system to boot from USB.
 
-# Install gnome-shell
+# Install gnome-shell, terminator
+1. gnome-shell
 > sudo apt-get install ubuntu-gnome-desktop
+> sudo apt-get update
+2. terminator
+> sudo apt-get install terminator
 
 # Install Application
-1. Install google [chrome[(https://www.google.com/chrome/browser/desktop/index.html)]
+1. Install google [chrome](https://www.google.com/chrome/browser/desktop/index.html)]
 
 
 
