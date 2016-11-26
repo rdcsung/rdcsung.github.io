@@ -36,6 +36,7 @@ terminator
 
 
 # Basic Python Configuration
+
 ## Vritual Environment
 What is Python [virtual environment](https://www.dabapps.com/blog/introduction-to-pip-and-virtualenv-python/)
 install virtualenv
