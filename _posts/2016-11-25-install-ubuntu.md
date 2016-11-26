@@ -41,7 +41,7 @@ terminator
 What is Python [virtual environment](https://www.dabapps.com/blog/introduction-to-pip-and-virtualenv-python/)
 install virtualenv
 
-> sudo apt-get install virtualenv 
+> sudo apt-get install virtualenv
 
 create a python virtual environment
 
@@ -63,4 +63,5 @@ Create a requirement file from current pip installation
 
 > pip freeze > requirements.txt
 
-
+# Editor
+[Atom](https://atom.io/)
