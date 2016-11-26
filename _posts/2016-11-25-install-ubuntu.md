@@ -21,11 +21,12 @@ Configure the system to boot from USB.
 
 # Install gnome-shell, terminator
 gnome-shell
+
 > sudo apt-get update
 > sudo apt-get install ubuntu-gnome-desktop
 
-
 terminator
+
 > sudo apt-get install terminator
 
 # Install Application
@@ -36,8 +37,19 @@ terminator
 
 # Basic Python
 What is Python [virtual environment](https://www.dabapps.com/blog/introduction-to-pip-and-virtualenv-python/)
+install virtualenv
 
 > sudo apt-get install virtualenv 
 
+create a python virtual environment
+
+> virtualenv -p /usr/bin/python2.6 <path/to/new/virtualenv/
+
+Activate a virtual environment
+
+>source env/bin/activate
+
+Deactive a virtual environment
+>deactivate
 
 
