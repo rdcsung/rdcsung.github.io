@@ -10,14 +10,21 @@ icon: fa-bookmark-o
 ---
 
 # Down load Ubuntu and burn USB
-1. [Ubuntu GNOME 16.04.1 LTS version is used](https://wiki.ubuntu.com/XenialXerus/ReleaseNotes/UbuntuGNOME)
+1. Ubuntu [16.04](https://www.ubuntu.com/download/desktop) LTS version is used
 
-2. [How to burn .iso on usb in windows](https://www.ubuntu.com/download/desktop/create-a-usb-stick-on-windows)
+2. How to burn .iso on usb in windows. [Link](https://www.ubuntu.com/download/desktop/create-a-usb-stick-on-windows)
 Note: USB stick need at least 8GB.
 
 # Install Ubuntu
 1. BIOS configuration
 On DELL, push F2 during start up of the computuer.
 Configure the system to boot from USB.
+
+# Install gnome-shell
+> sudo apt-get install ubuntu-gnome-desktop
+
+# Install Application
+1. Install google [chrome[(https://www.google.com/chrome/browser/desktop/index.html)]
+
 
 
