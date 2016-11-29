@@ -65,3 +65,19 @@ Create a requirement file from current pip installation
 
 # Editor
 [Atom](https://atom.io/)
+
+# Anaconda
+Anaconda is a freemium open source distribution of the Python and R programming languages for large-scale data processing, predictive analytics, and scientific computing, that aims to simplify package management and deployment. Its package management system is conda.
+[Download](https://www.continuum.io/downloads)
+I used the python 2.7 version. Run the below command to install
+
+> bash Anaconda2-4.2.0-Linux-x86_64.sh
+
+To change the default work environment to normal python, I update .bashrc file
+
+> mv .bashrc .bashrc-anaconda
+> mv .bashrc-anaconda.bak . bashrc
+
+Everytime when I need setup anaconda environment, I need to run the following command
+
+> source ~/.bashrc-anaconda
