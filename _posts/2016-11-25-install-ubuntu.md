@@ -107,6 +107,7 @@ For none-jupyter notebook case use, virtualenv, python 2.7
 
 
 # Reference
+
 ## About Anaconda and tensorflow environment
 
 [Original Post](http://stackoverflow.com/questions/37061089/trouble-with-tensorflow-in-jupyter-notebook)
