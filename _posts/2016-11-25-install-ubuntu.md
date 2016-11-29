@@ -82,16 +82,60 @@ Everytime when I need setup anaconda environment, I need to run the following co
 
 > source ~/.bashrc-anaconda
 
-
-# Tensorflow installation
-virtualenv, python 2.7
+## Tensorflow under anaconda2
+Install tensorflow under anaconda2 directly, do not create seperate envionrment
 
 > export TF_BINARY_URL=https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-0.11.0-cp27-none-linux_x86_64.whl
 > pip install --upgrade $TF_BINARY_URL
 
-Anaonda , Python 2.7
+## Anaconda virtual env
 
-> conda create -n tensorflow python=2.7
-> source activate tensorflow
+Anaonda , Python 2.7
+> conda create -n <virtual env name> python=2.7
+> source activate <virtual env name>
 
 > source deactivate
+
+Note: Virtual environment is under anaconda2/envs/
+To remove the virtual environment, just remove the folder under anaconda2/envs
+
+# Tensorflow installation
+For none-jupyter notebook case use, virtualenv, python 2.7
+
+> export TF_BINARY_URL=https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-0.11.0-cp27-none-linux_x86_64.whl
+> pip install --upgrade $TF_BINARY_URL
+
+
+# Reference
+## About Anaconda and tensorflow environment
+
+[Original Post](http://stackoverflow.com/questions/37061089/trouble-with-tensorflow-in-jupyter-notebook)
+
+To use tensorflow in Ipython and/or Jupyter(Ipython) Notebook, you'll need to install Ipython and Jupyter (after installing tensorflow) under the tensorflow activated environment.
+
+Before install Ipython and Jupyter under tensorflow environment, if you do the following commands in terminal:
+
+username$ source activate tensorflow
+
+(tensorflow)username$ which ipython
+(tensorflow)username$ /Users/username/anaconda/bin/ipython
+
+(tensorflow)username$ which jupyter
+(tensorflow)username$ /Users/username/anaconda/bin/jupyter
+
+(tensorflow)username$ which python
+(tensorflow)username$ /User/username//anaconda/envs/tensorflow/bin/python
+This is telling you that when you open python from terminal, it is using the one installed in the "environments" where tensorflow is installed. Therefore you can actually import tensorflow successfully. However, if you are trying to run ipython and/or jupyter notebook, these are not installed under the "environments" equipped with tensorflow, hence it has to go back to use the regular environment which has no tensorflow module, hence you get an import error.
+
+You can verify this by listing out the items under envs/tensorflow/bin directory:
+
+(tensorflow) username$ ls /User/username/anaconda/envs/tensorflow/bin/
+You will see that there are no "ipython" and/or "jupyer" listing out.
+
+To use tensorflow with Ipython and/or Jupyter notebook, simply install them into the tensorflow environment:
+
+(tensorflow) username$ conda install ipython
+(tensorflow) username$ pip install jupyter #(use pip3 for python3)
+After installing them, there should be a "jupyer" and a "ipython" show up in the envs/tensorflow/bin/ directory.
+
+Notes: Before trying to import tensorflow module in jupyter notebook, try close the notebook. And "source deactivate tensorflow" first, and then reactivate it ("source activate tensorflow") to make sure things are "on the same page". Then reopen the notebook and try import tensorflow. It should be import successfully (worked on mine at least).
