@@ -81,3 +81,17 @@ To change the default work environment to normal python, I update .bashrc file
 Everytime when I need setup anaconda environment, I need to run the following command
 
 > source ~/.bashrc-anaconda
+
+
+# Tensorflow installation
+virtualenv, python 2.7
+
+> export TF_BINARY_URL=https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-0.11.0-cp27-none-linux_x86_64.whl
+> pip install --upgrade $TF_BINARY_URL
+
+Anaonda , Python 2.7
+
+> conda create -n tensorflow python=2.7
+> source activate tensorflow
+
+> source deactivate
