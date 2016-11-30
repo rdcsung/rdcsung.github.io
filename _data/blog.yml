@@ -3,9 +3,12 @@
 
 - name: Linux
   href: '/linux/'
-  
+
 - name: Python
   href: '/python/'
+
+- name: DL
+  href: '/dl/'
 
 - name: Life
   href: '/life/'
@@ -20,5 +23,3 @@
 
 #- name: Mac
 #  href: '/mac/'
-
-
